@@ -1,0 +1,8 @@
+<resources>
+    <string name="module2_app_name">ModuleB</string>
+    <string name="module2_latest_news">最新</string>
+
+    <string name="module2_title_home">Home</string>
+    <string name="module2_title_dashboard">Dashboard</string>
+    <string name="module2_title_notifications">Notifications</string>
+</resources>

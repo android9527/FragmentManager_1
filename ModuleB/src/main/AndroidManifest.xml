@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.linked.moduleb">
+
+    <application
+        android:name="com.linked.erfli.moduleb.MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="moduleB"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        tools:replace="android:label">
+        <activity
+            android:name="com.linked.erfli.moduleb.LoginActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
